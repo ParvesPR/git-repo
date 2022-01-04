@@ -1,3 +1,68 @@
-h1{
-    color: red;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.peter-intro{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.peter-text {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:0px 20px;
+}
+
+.peter-text h1 {
+    font-size: 45px;
+}
+
+.text-color {
+    color: orange;
+}
+
+.peter-img img {
+    width: 90%;
+}
+
+.peter-img {
+    width: 50%;
+}
+.peter-text p {
+    font-size: 18px;
+    font-weight: 300 !important;
+    color: #777;
+    line-height: 27px;
+}
+
+.peter-text h3 {
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.peter-text p {
+    font-size: 18px;
+    font-weight: 300 !important;
+    color: #777;
+    line-height: 27px;
+}
+
+.peter-text h3 {
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+a.link-btn {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(#4b5287, #ff5200);
+    padding: 13px 40px;
+    margin: 5px 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
 }

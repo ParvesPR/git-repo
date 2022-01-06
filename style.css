@@ -8,6 +8,10 @@ a{
     font-family: 'Oswald', sans-serif;
 }
 /* CUSTOM CSS BEGAIN */
+section{
+    margin-bottom: 80px;
+    padding:50px 0px;
+}
 .container{
     width: 1170px;
     margin: auto;
@@ -34,12 +38,14 @@ a.link {
     color: #ff5200;
 }
 /* BANNER SECTION CSS PART */
-.banner-section{
-    margin-bottom: 80px;
-}
+
 .banner-text h1 {
     font-size: 60px;
     font-weight: 600;
+    border-left: 4px solid;
+    border-color: #ff5200;
+    border-image-slice: 1;
+    padding-left: 15px;
 }
 
 .banner-text p {
@@ -57,8 +63,7 @@ a.link {
 
 /* MY MISSION SECTION CSS PART */
 .my-mission-section {
-    background: #f7f9ff;
-    padding: 50px 0px;
+    background: #fbfcff;
 }
 
 .my-mission-section h1 {
@@ -113,4 +118,22 @@ a.link {
     font-weight: 400;
     color: #434343;
     line-height: 22px;
+}
+
+/* DEVELOP SECTION CSS PART */
+.develop-img img {
+    width: 80%;
+}
+
+.develop-content h1 {
+    font-size: 40px;
+    line-height: 25px;
+    display: block;
+}
+
+.develop-content p {
+    font-size: 16px;
+    color: #767676;
+    line-height: 24px;
+    font-weight: 400;
 }

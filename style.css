@@ -26,11 +26,11 @@ a.link {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
-    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: linear-gradient(0deg, #ff5200 0%, #f6a160 100%);
     padding: 10px 30px;
     border-radius: 3px;
     color: #fff;
-    box-shadow: 1px 2px 8px #7a9dfe;
+    box-shadow: 1px 2px 3px #f6a260;
     margin-bottom: 10px;
     display: inline-block;
 }
@@ -42,10 +42,19 @@ a.link {
 .banner-text h1 {
     font-size: 60px;
     font-weight: 600;
-    border-left: 4px solid;
-    border-color: #ff5200;
-    border-image-slice: 1;
-    padding-left: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+.banner-text h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 16px;
+    background: #ff5200;
+    width: 2px;
+    height: 109px;
+    border: 1px solid #ff5200;
+    border-radius: 20px;
 }
 
 .banner-text p {
@@ -122,18 +131,89 @@ a.link {
 
 /* DEVELOP SECTION CSS PART */
 .develop-img img {
-    width: 80%;
+    width: 70%;
+}
+.develop-content {
+    margin-left: -50px;
 }
 
 .develop-content h1 {
     font-size: 40px;
-    line-height: 25px;
+    line-height: 20px;
     display: block;
+    margin-bottom: 45px;
 }
 
 .develop-content p {
     font-size: 16px;
     color: #767676;
-    line-height: 24px;
+    line-height: 30px;
     font-weight: 400;
+}
+
+/* COMMUNITY SECTION CSS PART */
+.community-section{
+    background: #fbfcff;
+}
+.community-img img {
+    width: 70%;
+}
+
+.community-content h1 {
+    font-size: 40px;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.community-content p {
+    font-size: 16px;
+    color: #767676;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.community-img img {
+    margin-left: 140px;
+}
+
+/* WHY CHOOSE US SECTION CSS PART */
+.why-choose-us {
+    background: #66B8FC;
+    color: #fff;
+}
+
+.why-choose-title h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.why-choose-us-items {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+.why-choose-us-items h3 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.why-choose-us-items p {
+    font-size: 18px;
+}
+
+/* FOOTER SECTION CSS PART  */
+footer {
+    background: #333;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+footer p {
+    color: #ddd;
 }
